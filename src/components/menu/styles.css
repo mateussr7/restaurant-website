@@ -1,0 +1,19 @@
+.product-list{
+    border: 1px solid #c7c7c7c7;
+    border-radius: 5px;
+    margin: 25px 50px 50px;
+    background: #fafafa;
+    font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+
+.product-list article{
+    margin: 10px;
+    border: 1px solid #c7c7c7c7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product-list article:hover{
+    background: #f2f2f2;
+    cursor: pointer;
+}

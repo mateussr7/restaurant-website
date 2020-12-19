@@ -7,19 +7,22 @@ export default class Menu extends Component {
     state = {
         products: [
             {
-                id: 0001,
+                id: 1,
                 name: 'X-TUDO',
-                description: 'Sanduíche com carne, bacon, salada, maionese e molho de tomate'
+                description: 'Sanduíche com carne, bacon, salada, maionese e molho de tomate',
+                price: 'R$10,00'
             },
             {
-                id: 0002,
+                id: 2,
                 name: 'X-SALADA',
-                description: 'Sanduíche de salada'
+                description: 'Sanduíche de salada',
+                price: 'R$10,00'
             },
             {
-                id: 0003,
+                id: 3,
                 name: 'X-BACON',
-                description: 'Sanduíche de Bacon'
+                description: 'Sanduíche de Bacon',
+                price: 'R$10,00'
             }
         ]
     }
@@ -35,6 +38,7 @@ export default class Menu extends Component {
                         <article key={product.id}>
                             <strong>{product.name}</strong>
                             <p>{product.description}</p>
+                            <p>{product.price}</p>
                         </article>
                     ))
                 }
